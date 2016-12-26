@@ -1,0 +1,85 @@
+header
+    width: 100%
+    position: relative
+    .social-networks
+        padding: 105px 20px
+        color: $text_dark_color
+        .toggle-social
+            i
+                font-size: 30px
+        .hidden-droplist
+            display: none
+            width: 200px
+            padding: 15px
+            margin-top: 15px
+            position: absolute
+            //text-align: center
+            border-radius: 5px
+            background: $drop_down_asbestos_color
+            box-shadow: 0 0px 5px $drop_down_asbestos_color
+            &:before
+                content: " "
+                width: 0 
+                height: 0 
+                top: -10px
+                margin-left: -10px
+                position: absolute
+                border-bottom: 10px solid $drop_down_asbestos_color
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+            .single-network
+                margin-bottom: 10px 
+                &:last-child
+                    margin-bottom: 0px
+                a
+                    color: $h_lighter_color
+                    &:hover
+                        color: $h_dark_colors
+
+
+    .logo
+        width: 140px
+        height: 140px
+        border-radius: 50%
+        overflow: hidden
+        background: #2c3e50
+        margin-top: 40px
+        a
+            img
+                width: 130px
+                height: 130px
+                margin: 10px 5px 0px
+                border-radius: 50%
+    .search-bar
+        padding: 105px 20px
+        color: $text_dark_color
+        position: relative
+        right: 15px
+        .toggle-search
+            i
+                font-size: 30px
+        .drop-search
+            display: none
+            width: 250px
+            padding: 0px 13px
+            margin-top: 15px
+            right: 40px
+            position: absolute
+            border-radius: 5px
+            background: $drop_down_asbestos_color
+            box-shadow: 0 0px 5px $drop_down_asbestos_color
+            &:before
+                content: " "
+                width: 0 
+                height: 0 
+                top: -10px
+                right: 5px
+                position: absolute
+                border-bottom: 10px solid $drop_down_asbestos_color
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+            .search-inpu
+                background: $h_lighter_color
+                padding: 5px
+                margin: 10px 0px
+                border-radius: 3px                

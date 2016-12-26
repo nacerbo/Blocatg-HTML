@@ -1,0 +1,71 @@
+#comments
+    margin: 30px auto
+    .comments-title
+        padding-left: 10px
+        margin: 30px auto
+    .comment-list
+        li.comment
+            .comment-meta
+                
+                .comment-author
+                    position: relative
+
+                    img
+                        height: 50px
+                        left: -65px
+                        position: absolute
+                        width: 50px
+                .comment-metadata
+                    color: #767676
+                    font-size: 10px
+                    font-size: 0.625rem
+                    font-weight: 800
+                    letter-spacing: 0.1818em
+                    text-transform: uppercase
+        .children
+            padding-left: 2em
+            li.comment
+                .comment-meta
+                    
+                    .comment-author
+                        position: relative
+
+                        img
+                            height: 30px
+                            left: -45px
+                            position: absolute
+                            width: 30px
+                            border: 1px solid #333
+                            padding: 2px
+                    .comment-metadata
+                        color: #767676
+                        font-size: 10px
+                        font-size: 0.625rem
+                        font-weight: 800
+                        letter-spacing: 0.1818em
+                        text-transform: uppercase
+            .children
+                padding-left: 2em
+    
+    .comment-respond
+        label
+            display: block
+            width: 100%
+            margin-bottom: 15px
+        textarea
+            @extend label
+            border: 1px solid #bbb
+            border-radius: 3px
+            padding: 0.7em
+        input
+            @extend textarea
+        .form-submit
+            text-align: right
+            input
+                background-color: #222
+                border: none
+                border-radius: 2px
+                color: #fff
+                display: inline-block
+                padding: 1em 2em
+                width: auto 

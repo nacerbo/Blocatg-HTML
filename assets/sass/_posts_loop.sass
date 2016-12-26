@@ -1,0 +1,105 @@
+.content-loop
+    margin-bottom: 20px
+    article
+        margin-bottom: 60px
+
+    a
+        h1
+            font-weight: 700
+            margin: 0 0 0.5em
+    p
+        font-size: 18px
+        line-height: 30px
+        margin-bottom: 10px
+    .read-more
+        text-align: right
+        a
+            color: $more_link_color
+            &:hover
+                padding-right: 50px
+                color: $more_link_hover_color
+    .format-gallery
+        position: relative
+        .title
+            position: absolute
+            top: 0
+            z-index: 2
+            a
+                color: $h_lighter_color
+                h1
+                    display: inline
+                    background: rgba(0,0,0,0.7)
+                    line-height: 1.27
+        .owl-carousel
+            position: relative
+            .owl-controls
+                position: absolute
+                bottom: 0
+                right:  0
+                .owl-nav
+                    .owl-prev
+                        float: left
+                        padding: 5px 15px
+                        background: rgba(192, 57, 43, 0.6)
+                        font-size: 28px
+                        color: rgba(255, 255, 255, 0.8)
+                    .owl-next
+                        @extend .owl-prev
+                        position: relative
+                        &:before
+                            content: " "
+                            width: 1px
+                            height: 100%
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            background: rgba(0, 0, 0, 0.6)
+
+    .format-image
+        position: relative
+        .title
+            position: absolute
+            top: 0
+            z-index: 2
+            a
+                color: $h_lighter_color
+                h1
+                    display: inline
+                    background: rgba(0,0,0,0.7)
+                    line-height: 1.27
+    .format-quote
+        position: relative
+        .quote-header
+            i
+                font-size: 100px
+                float: left
+                margin-left: 40%
+            h3
+                float: left
+                margin-left: 20px
+                line-height: 85px
+                font-size: 20px
+                color: #636465
+                font-weight: 400
+        .the-quote
+            text-align: center
+            width: 100%
+            color: #444
+            font-size: 20px
+            font-style: italic
+            margin: 10px 0
+            i
+                font-size: 16px
+                color: #7f8d8c
+    .format-audio
+        .soundcloud-embed
+            margin: 15px 0
+    .pagination
+        font-size: 22px
+        .prev-posts
+            span
+                margin: 6px
+        .next-posts
+            text-align: right
+            @extend .prev-posts
